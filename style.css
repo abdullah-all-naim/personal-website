@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h4,h5{
+    font-family: 'Domine', serif;
+}
+h5{
+    color: rgb(117, 108, 108);
+}
+.half-width{
+    width:40% ;
+    float: left;
+    margin-left: 5%;
+    margin-top: .5%;
+    padding-left: 2%;
+}
+div.half-width img{
+    width: 100%;
+    margin-top: 80px;
+}
+/* ***********Link Button*********** */
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( pink,rgb(250, 4, 127));
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+}
+.link-button:hover{
+    border:1px solid rgb(250, 4, 127) ;
+}
+
+/************Introduction Section*********** */
+
+.top-banner{
+    background-image:url("images/header-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.intro-text{
+    margin-top: 200px;
+    margin-left: 120px;
+}
+.name-color{
+    color: rgb(241, 60, 151);
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/************Biography Section*********** */
+.biography{
+    background-image:url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 969px;
+    background-size: cover;
+}
+.bio-text{
+    margin-top: 350px;
+}
+/************Latest Works Section*********** */
+.my-works{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    text-align: center;
+    background-position: center;
+    margin-bottom: -191px;
+}
+.center{
+    margin-top: 120px; 
+    margin-bottom: 60px;
+}
+ div.center{
+ text-align: center;
+} 
+.work-img{
+    text-align: center;
+    margin: 0px 20px;
+    height: 250px;
+    width: 300x;
+    border: 1px solid lightgray;
+}
+
+/************contact Section*********** */
+section.client{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    text-align: center;
+    background-position: center;
+    height: 650px;
+    margin-top: 98px;
+    margin-bottom: -37px;
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+div.text-center p{
+    display: inline-block;
+    width: 500px;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+div.text-box{  
+    text-decoration: none;
+    background-image: linear-gradient(rgb(250, 4, 127), rgb(255, 81, 110));
+    padding: 40px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    height: 20px;
+    padding:40px 0 100px 0;
+    width: 700px;
+    display: inline-block;
+}
+
+.client-head{
+    margin-bottom: 94px;
+    margin-top: 53px;
+}
+
+div.text-center p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
+
+
